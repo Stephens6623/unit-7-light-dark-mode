@@ -16,7 +16,7 @@ function App() {
     color: 'black'
   };
 
-  // Use boolean state for cleaner logic
+  // Use boolean state to help make things smoother switching modes
   const [isDarkMode, setIsDarkMode] = useState(false);
   const currentStyle = isDarkMode ? darkMode : lightMode;
 
